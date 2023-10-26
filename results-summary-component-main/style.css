@@ -1,24 +1,80 @@
-body {
+* {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 .background {
   background-color: white;
 }
 
-.main-box {
-
+.main-container {
+  margin: 100px auto;
+  width: 550px;
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+  border-radius: 15px;
+  border: 1px black solid;
 }
 
 .left-side {
+  text-align: center;
+  background-color: hsl(252, 100%, 67%);
+  border-radius: 15px;
+  width: 50%;
+  padding: 30px;
 }
 
 .right-side {
+  background-color: white;
+  border-radius: 15px;
+  width: 50%;
+  padding: 30px;
 }
 
-.header {
+.score-breakdown {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  gap: 10px;
+  margin-top: ;
 }
 
-.result-circle {
+.breakdown-item {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid blue;
+  padding: 5px;
+}
+
+.breakdown-icon {
+  border: 1px solid yellow;
+}
+
+.breakdown-title {
+  border: 1px solid red;
+  margin-left: 5px;
+  width: 60px;
+}
+
+.breakdown-score {
+  border: 1px solid green;
+  margin-left: 58px;
+}
+
+.reaction {
+  background-color: hsl(0, 100%, 67%);
+}
+
+.memory {
+  background-color: hsl(39, 100%, 56%);
+}
+
+.verbal {
+  background-color: hsl(166, 100%, 37%);
+}
+
+.visual {
+  background-color: hsl(234, 85%, 45%);
 }
